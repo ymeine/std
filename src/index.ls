@@ -1,54 +1,49 @@
 require! {
-	array
-	date
-	io
-	logging
-	number
-	object
-	opt
-	proxy
-	string
-	type
+	packager
 }
 
+packager.export {
+	module
+	submodules: {
+		# Primitives -----------------------------------------------------------
 
+		number: <[
+			num
+			nb
+			math
+			maths
+		]>
+		string: <[
+			str
+		]>
+		array: <[
+			arrays
+			arr
+		]>
+		object: <[
+			obj
+		]>
 
-primitives = {
-	number
-	num: number
-	nb: number
-	math: number
-	maths: number
+		date: <[]>
+		type: <[
+			types
+			typing
+		]>
 
-	string
-	str: string
+		# Other ----------------------------------------------------------------
 
-	array
-	arrays: array
-	arr: array
+		io: <[
+			i-o
+			i_o
+			i/o
+			input-output
+			input_output
+			input/output
+			inputOutput
+		]>
 
-	object
-	obj: object
-
-	date
-
-	type
+		logging: <[log]>
+		opt: <[optimization]>
+		proxy: <[]>
+	}
 }
-
-
-
-export {
-	primitives
-	native: primitives
-
-	io
-	input-output: io
-
-	logging
-	log: logging
-
-	opt
-	optimization: opt
-
-	proxy
-} <<< primitives
