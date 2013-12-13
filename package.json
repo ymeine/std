@@ -1,0 +1,61 @@
+{
+	"name": "std",
+	"version": "0.0.0",
+	"keywords": [
+		"std",
+		"standard",
+		"stdlib",
+		"basic",
+		"core"
+	],
+
+	"description": "std",
+	"homepage": "https://ymeine.github.io/std",
+
+	"contributors": [
+		{
+			"name": "Yannick Meine",
+			"email": "yannick.meine@gmail.com",
+			"url": "http://ymeine.github.io"
+		}
+	],
+	"licenses": [
+		"MIT"
+	],
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ymeine/std"
+	},
+	"bugs": {
+		"url": "https://github.com/ymeine/std/issues"
+	},
+
+
+
+	"main": "src/index",
+	"scripts": {
+	},
+
+	"preferGlobal": false,
+	"private": false,
+
+
+	"engineStrict": false,
+	"engines": {
+		"node": "*"
+	},
+	"devDependencies": {
+		"tester": "git+https://github.com/ymeine/tester"
+	},
+	"dependencies": {
+		"LiveScript": "1.2.x",
+
+		"lodash": "*",
+
+		"moment": "*",
+
+		"xml2js": "*",
+		"csv": "*"
+	}
+}
