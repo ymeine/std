@@ -1,6 +1,7 @@
 {
 	"name": "std",
 	"version": "0.0.0",
+	"description": "Standard library",
 	"keywords": [
 		"std",
 		"standard",
@@ -9,44 +10,42 @@
 		"core"
 	],
 
-	"description": "std",
 	"homepage": "https://ymeine.github.io/std",
+	"bugs": "https://github.com/ymeine/std/issues",
 
-	"contributors": [
-		{
-			"name": "Yannick Meine",
-			"email": "yannick.meine@gmail.com",
-			"url": "http://ymeine.github.io"
-		}
-	],
-	"licenses": [
-		"MIT"
-	],
+	"license": "MIT",
+
+	"author": {
+		"name": "Yannick Meine",
+		"email": "yannick.meine@gmail.com",
+		"url": "http://ymeine.github.io"
+	},
 
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ymeine/std"
 	},
-	"bugs": {
-		"url": "https://github.com/ymeine/std/issues"
-	},
 
 
 
 	"main": "src/index",
-	"scripts": {
+
+	"directories": {
+		"lib": "./src"
 	},
 
-	"preferGlobal": false,
-	"private": false,
 
+
+	"preferGlobal": false,
+	"private": true,
 
 	"engineStrict": false,
 	"engines": {
-		"node": "*"
+		"node": "*",
+		"npm": "*"
 	},
 	"devDependencies": {
-		"tester": "git+https://github.com/ymeine/tester"
+		"tester": "git+https://github.com/ymeine/tester#version/latest"
 	},
 	"dependencies": {
 		"LiveScript": "1.2.x",

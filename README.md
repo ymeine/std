@@ -9,7 +9,7 @@ A standard library.
 
 ## Folders
 
-* [`src`](./): sources of the project
+* [`src`](./src): sources of the project
 
 # Versioning
 
