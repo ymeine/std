@@ -1,7 +1,7 @@
 {
 	"name": "std",
 	"version": "0.0.0",
-	"description": "Standard library",
+	"description": "A standard library, with basic/core functions, or let's say better: features I consider essential.",
 	"keywords": [
 		"std",
 		"standard",

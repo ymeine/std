@@ -1,5 +1,9 @@
 A standard library.
 
+# Introduction
+
+Please have a look to the different files in [`src`](./src) for documentation: each older has its own documentation, and can drive you through other folders.
+
 # File system layout
 
 * [`README.md`](./README.md): this current file

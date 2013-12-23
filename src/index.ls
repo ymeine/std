@@ -1,9 +1,9 @@
-require! {
-	packager
-}
-
-packager.export {
+require 'packager' .export {
 	module
+
+	desc: '''
+		Package entry point
+	'''
 
 	submodules: {
 		# Primitives -----------------------------------------------------------
@@ -33,7 +33,10 @@ packager.export {
 
 		# Other ----------------------------------------------------------------
 
-		packager: <[]>
+		packager: <[
+			package
+			pack
+		]>
 
 		io: <[
 			i-o
@@ -45,8 +48,17 @@ packager.export {
 			inputOutput
 		]>
 
-		logging: <[log]>
-		opt: <[optimization]>
+		logging: <[
+			log
+			logger
+		]>
+		opt: <[
+			optimization
+			optimizer
+			perf
+			performance
+			performances
+		]>
 		proxy: <[]>
 	}
 }
