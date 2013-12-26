@@ -2,7 +2,7 @@ A standard library.
 
 # Introduction
 
-Please have a look to the different files in [`src`](./src) for documentation: each older has its own documentation, and can drive you through other folders.
+Please have a look at the different files in [`src`](./src) for documentation: each folder has its own documentation, and can drive you through the other folders.
 
 # File system layout
 
