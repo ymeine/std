@@ -10,7 +10,6 @@
 		"core"
 	],
 
-	"homepage": "http://ymeine.github.io/std",
 	"bugs": "https://github.com/ymeine/std/issues",
 
 	"license": "MIT",
@@ -36,8 +35,9 @@
 
 
 
+
 	"preferGlobal": false,
-	"private": true,
+	"private": false,
 
 	"engineStrict": false,
 	"engines": {
@@ -50,11 +50,11 @@
 	"dependencies": {
 		"LiveScript": "1.2.x",
 
-		"lodash": "*",
+		"lodash": "2.x",
 
-		"moment": "*",
+		"moment": "2.x",
 
-		"xml2js": "*",
-		"csv": "*"
+		"xml2js": "0.x",
+		"csv": "0.x"
 	}
 }

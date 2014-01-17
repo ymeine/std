@@ -5,7 +5,7 @@ require 'packager' .export {
 		Package entry point
 	'''
 
-	submodules: {
+	submodules:
 		# Primitives -----------------------------------------------------------
 
 		number: <[
@@ -46,6 +46,7 @@ require 'packager' .export {
 			input_output
 			input/output
 			inputOutput
+			input output
 		]>
 
 		logging: <[
@@ -60,5 +61,4 @@ require 'packager' .export {
 			performances
 		]>
 		proxy: <[]>
-	}
 }
