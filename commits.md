@@ -31,6 +31,8 @@ Removed:
 
 - server: separate project exists
 - oop: separate project exists
+- opt: separate project will be created, needs a lot of cleaning
+- logging: separate project will be created, needs a lot of cleaning
 - the rendering feature of io: separate project exists
 - win32: nothing to do in a generic programming standard library
 
