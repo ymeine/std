@@ -56,3 +56,6 @@ I refactoring the code to meet my quality requirements:
 - string.replace: now exported, replaces a portion of a string with a given one
 - string.insert: inserts a string into another one
 - array.reverse: equivalent of array.reverse
+- string.split
+- string.splitAt
+- type.typeof
