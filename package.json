@@ -6,8 +6,10 @@
 		"std",
 		"standard",
 		"stdlib",
+		"lib",
 		"basic",
-		"core"
+		"core",
+		"native"
 	],
 
 	"bugs": "https://github.com/ymeine/std/issues",
@@ -37,12 +39,12 @@
 
 
 	"preferGlobal": false,
-	"private": false,
+	"private": true,
 
 	"engineStrict": false,
 	"engines": {
-		"node": "*",
-		"npm": "*"
+		"node": "0.11.x",
+		"npm": "1.4.x"
 	},
 	"devDependencies": {
 		"tester": "git+https://github.com/ymeine/tester#version/latest"
